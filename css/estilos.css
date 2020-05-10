@@ -159,18 +159,18 @@ ul,li{
 	width: 90%;
 	height: 350px;
 	display: flex;
-	margin: 50px;
+	margin: 30px;
 	
 	}
 .g{
 	padding: 20px;
-	width: 40%;
-
+	width: 70%;
+	height: 250px;
 	border: solid;
 	border-color: black;
 }
 .elem{
-	width: 70%;
+	width: 100%;
 	position: relative;
 	padding: 2px;
 }
@@ -317,7 +317,7 @@ left: 8px;
 	border-color: black;
 }
 .elem{
-	width: 90%;
+	width: 100%;
 	left: 20px;
 }
 .info{
