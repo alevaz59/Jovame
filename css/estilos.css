@@ -311,18 +311,20 @@ left: 8px;
 .g{
 	
 	width: 80%;
-	height: 350PX;
+	height: 450PX;
 
 	border: solid;
 	border-color: black;
 }
 .elem{
 	width: 97%;
+	position: relative;
 }
 .info{
   font-family: verdana;
   font-size: 12px;
   text-align: center;
+  padding-top: 10px;
 
 }
 
