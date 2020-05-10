@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.contP{
+	margin: 0;
+	width: 100%;
+	background: white;
+
+}
+.head{
+	margin: 0;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+	background-image: url('../img/ban2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:  right;
+}
+.headPl{
+	margin: 0;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+	background-image: url('../img/playera.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:  right;
+}
+.headC{
+	margin: 0;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+	background-image: url('../img/camisa.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:  right;
+}
+.headP{
+	margin: 0;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+	background-image: url('../img/pantalon.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:  right;
+}
+.headS{
+	margin: 0;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+	background-image: url('../img/saco.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:  right;
+}
+.headC{
+	margin: 0;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+	background-image: url('../img/corbata.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:  right;
+}
+.headM{
+	margin: 0;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+	background-image: url('../img/moño.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:  right;
+}
+.logo1{
+
+width:13%;
+position: absolute;
+top: 20px;
+left: 25px;
+}
+
+
+.lista{
+	position: absolute;
+	top: 200px;
+	margin: auto;
+	width:100%;
+	font-family: verdana;
+
+}
+ul,li{
+	list-style: none;
+
+}
+.nav li a{
+	background-color: black;
+	color: white;
+	padding: 10px 30px;
+	display: block;
+	text-decoration:none;
+
+}
+.nav li a:hover{
+	background-color: red;
+}
+.nav > li{
+	float: left;
+
+
+}
+.nav li ul{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+
+}
+.nav li:hover >ul{
+	display: block;
+}
+.nav li ul li{
+	position: relative;
+}
+
+
+.galeria{
+	width: 90%;
+    display: block;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    
+
+}
+.cuadro{
+	
+	width: 97%;
+	height: 300px;
+	display: flex;
+	margin: 30px;
+	
+	}
+.g{
+	padding: 15px;
+	width: 30%;
+
+	border: solid;
+	border-color: black;
+}
