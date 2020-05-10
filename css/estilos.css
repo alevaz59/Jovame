@@ -146,24 +146,24 @@ ul,li{
 }
 
 .galeria{
-	width: 90%;
+	width: 95%;
     display: block;
     position: absolute;
-    top: 650px;
+    top: 550px;
     left: 50px;
     
 
 }
 .cuadro{
 	
-	width: 97%;
-	height: 300px;
+	width: 90%;
+	height: 350px;
 	display: flex;
-	margin: 30px;
+	margin: 50px;
 	
 	}
 .g{
-	padding: 15px;
+	padding: 20px;
 	width: 40%;
 
 	border: solid;
