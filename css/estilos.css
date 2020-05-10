@@ -303,6 +303,7 @@ left: 8px;
 .cuadro{
 	
 	width: 97%;
+	height: auto;
 	display: inline-block;
 
 	
@@ -318,7 +319,7 @@ left: 8px;
 }
 .elem{
 	width: 100%;
-	left: 20px;
+	left: 10px;
 }
 .info{
   font-family: verdana;
