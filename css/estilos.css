@@ -141,7 +141,6 @@ ul,li{
 	width: 65%;
 	height: 330px;
 	position: absolute;
-
 	z-index: -1;
 	left: 250px;
 }
@@ -165,15 +164,15 @@ ul,li{
 	}
 .g{
 	padding: 15px;
-	width: 30%;
+	width: 40%;
 
 	border: solid;
 	border-color: black;
 }
 .elem{
-	width: 110%;
+	width: 100%;
 	position: relative;
-	left: -10px;
+	padding: 2px;
 }
 .info{
   font-family: verdana;
@@ -319,6 +318,7 @@ left: 8px;
 }
 .elem{
 	width: 90%;
+	left: 20px;
 }
 .info{
   font-family: verdana;
