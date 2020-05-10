@@ -291,7 +291,7 @@ left: 8px;
 }
 
 .galeria{
-	width: 80%;
+	width: 90%;
     display: block;
     position: absolute;
     top: 550px;
@@ -303,7 +303,6 @@ left: 8px;
 .cuadro{
 	
 	width: 97%;
-	height: 350px;
 	display: inline-block;
 
 	
@@ -312,13 +311,13 @@ left: 8px;
 .g{
 	
 	width: 80%;
-	height: 300PX;
+	height: 350PX;
 
 	border: solid;
 	border-color: black;
 }
 .elem{
-	width: 100%;
+	width: 97%;
 }
 .info{
   font-family: verdana;
