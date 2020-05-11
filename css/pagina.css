@@ -58,7 +58,7 @@
 	background-size: cover;
 	background-position:  right;
 }
-.headC{
+.headCo{
 	margin: 0;
     width: 100%;
     height: 250px;
@@ -93,6 +93,7 @@ left: 25px;
 	margin: auto;
 	width:100%;
 	font-family: verdana;
+	z-index: 1;
 
 }
 ul,li{
@@ -112,6 +113,7 @@ ul,li{
 }
 .nav > li{
 	float: left;
+	z-index: 1;
 
 
 }
@@ -130,26 +132,270 @@ ul,li{
 
 
 .galeria{
-	width: 90%;
+	width: 100%;
     display: block;
     position: absolute;
-    top: 350px;
-    left: 50px;
+    top: 300px;
+    margin: 0;
     
 
 }
 .cuadro{
 	
-	width: 97%;
-	height: 300px;
+	width: 94%;
 	display: flex;
 	margin: 30px;
+	left: 0;
+	padding-left: 10px;
 	
 	}
 .g{
-	padding: 15px;
-	width: 30%;
+	margin-left:10px;
+	padding: 20px;
+	width: 100%;
+	
+	border: .3px solid #000;
 
-	border: solid;
-	border-color: black;
+
+}
+
+.elem{
+	width: 110%;
+	height: 300px;
+	position: relative;
+	left: -15px;
+	padding: 2px;
+}
+.info{
+  font-family: verdana;
+  font-size: 12px;
+  text-align: center;
+}
+.marca{
+	width: 100%;
+	position: absolute;
+	top: 270px;
+	left: 180px;
+	display: flex;
+	
+}
+a{
+	text-decoration: none;
+}
+
+a .m{
+	font-family: verdana;
+	font-size: 25px;
+	color: black;
+	padding-left: 70px;
+	
+	
+}
+a .m:hover{
+
+	color: #D81E15;
+}
+
+footer{
+	width: 100%;
+	height: 300px;
+	color: white;
+	background: red;
+	position: relative;
+}
+
+
+@media(min-width: 320px) and (max-width: 768px) {
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.contP{
+	margin: 0;
+	width: 100%;
+	background: white;
+
+}
+.head{
+	margin: 0;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+	background-image: url('../img/ban2.png');
+	background-repeat: no-repeat;
+	background-size: 450px 150px;
+	
+}
+
+.headPl{
+	margin: 0;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+	background-image: url('../img/playera.png');
+	background-repeat: no-repeat;
+	background-size: 450px 150px;
+	background-position:  right;
+}
+.headC{
+	margin: 0;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+	background-image: url('../img/camisa.png');
+	background-repeat: no-repeat;
+	background-size: 450px 150px;
+	background-position:  right;
+}
+.headP{
+	margin: 0;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+	background-image: url('../img/pantalon.png');
+	background-repeat: no-repeat;
+	background-size: 450px 150px;
+	background-position:  right;
+}
+.headS{
+	margin: 0;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+	background-image: url('../img/saco.png');
+	background-repeat: no-repeat;
+	background-size: 450px 150px;;
+	background-position:  right;
+}
+.headCo{
+	margin: 0;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+	background-image: url('../img/corbata.png');
+	background-repeat: no-repeat;
+	background-size: 450px 150px;
+	background-position:  right;
+}
+.headM{
+	margin: 0;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+	background-image: url('../img/moño.png');
+	background-repeat: no-repeat;
+	background-size: 450px 150px;
+	background-position:  right;
+}
+.logo1{
+
+width:15%;
+position: absolute;
+top: 25px;
+left: 10px;
+}
+
+
+.lista{
+	position: absolute;
+	top: 145px;
+	margin: auto;
+	width:100%;
+	font-family: verdana;
+	font-size: 13.6px;
+
+}
+.nav li a{
+	background-color: black;
+	color: white;
+	padding: 10px 14px;
+	display: block;
+	text-decoration:none;
+
+}
+
+.anuncio{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 190px;
+}
+.anun{
+	width: 100%;
+	left: 0;
+	height: 250px;
+	position: absolute;
+
+	z-index: -1;
+	
+}
+.anun1{
+	width: 80%;
+	height: 200px;
+	position: absolute;
+	z-index: -1;
+	top: 260px;
+	left: 40px;
+	border-radius: 30px;
+}
+
+
+.galeria{
+	width: 100%;
+    display: block;
+    position: absolute;
+    top: 200px;
+   
+   
+    
+
+}
+.cuadro{
+	
+	width: 90%;
+	display: inline-block;
+
+	
+	
+}
+.g{
+	margin-left: 1px;
+	
+	width: 80%;
+	
+	border: .3px solid #000;
+
+
+}
+.elem{
+	padding-left:20px;
+	margin-left: 25px;
+	width: 80%;
+	position: relative;
+}
+.info{
+  font-family: verdana;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 10px;
+
+}
+.marca{
+	width: 100%;
+	position: absolute;
+	top: 190px;
+	left: 0px;
+	display: flex;
+	
+}
+a .m{
+	font-size: 20px;
+	
+	padding-left: 13px;
+	
+	
+}
+
 }
