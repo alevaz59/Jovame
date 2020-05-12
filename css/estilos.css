@@ -422,19 +422,19 @@ left: 8px;
 
 }
 .produc{
- margin: 5px;
- width: 100%;
+ margin: 0;
+ width: 98%;
  height: 270px;
  padding: 20px;
 }
 .infor{
-width:100%;
-margin: 5px;
+width:98%;
+margin: 0;
 padding:15px;
 }
 .redes{
-width: 100%;
-margin: 5px;
+width: 98%;
+margin: 0;
 }
 .infor h1{
 	font-size: 18px;
@@ -450,11 +450,12 @@ margin: 5px;
 		text-align: center;
 }
 .redes h1{
-  font-size: 15px;
+  font-size: 13px;
 	text-align: center;
 }
 .redes h2{
-  font-size: 15px;
+	padding: 5px;
+  font-size: 13px;
 	text-align: center;
 }
 
