@@ -166,6 +166,12 @@ ul,li{
 	left: -15px;
 	padding: 2px;
 }
+.ele{
+	width: 110%;
+	height: 200px;
+	position: relative;
+	left: -15px;
+	padding: 2px;
 .info{
   font-family: verdana;
   font-size: 12px;
@@ -345,7 +351,7 @@ left: 10px;
 	margin: auto;
 	width:100%;
 	font-family: verdana;
-	font-size: 13.6px;
+	font-size: 13px;
 
 }
 .nav li a{
@@ -415,6 +421,14 @@ left: 10px;
 	margin-left: 25px;
 	width: 80%;
 	position: relative;
+}
+.ele{
+	width: 80%;
+	height: 200px;
+	position: relative;
+	padding-left:20px;
+	margin-left: 25px;
+	
 }
 .info{
   font-family: verdana;
