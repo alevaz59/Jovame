@@ -207,6 +207,26 @@ a .m:hover{
 
 	color: #D81E15;
 }
+.numpag{
+
+	width: 20%;
+	height: 70px;
+	margin-left: 500px;
+	position: relative;
+	display: flex;
+
+	
+}
+.dnum{
+	
+  width: 5%;
+  padding-left: 50px;
+  font-size: 25px;
+  height: 60px;
+  text-decoration: underline;
+  color: black;
+
+}
 
 .pie{
 
